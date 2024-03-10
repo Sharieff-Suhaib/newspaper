@@ -1,0 +1,65 @@
+body{
+    background-color:lavender;
+}
+.container{
+    display: flex;
+    
+}
+#time{
+    display: block;
+    text-align: center;
+}
+#flash{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 800px;
+    padding-right: 20px;
+    
+}
+#flash1{
+    display: flex;
+    flex-basis: 800px;
+    flex-wrap: wrap;
+
+}
+#world{
+    display: flex;
+}
+.stat{
+    display: block;
+    margin-left: 500px;
+}
+
+
+
+.boat{
+    float: left;
+    height: 250px;
+    padding-right: 10px;
+}
+
+.pm{
+    float: left;
+    height: 200px;
+    margin: 0px 10px 3px 0px;
+}
+.modi{
+    float: right;
+    height: 200px;
+    margin: 0px 0px 0px 10px;
+}
+
+
+.navi{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container3{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 20px;
+    column-gap: 10px;
+}
+
